@@ -1,14 +1,8 @@
-// index.js
 Page({
   data: {
-    imgUrls:[1,2,3,4],
-    cements:[1,2,3],
-    popular:[1,2,3,4,5,6,7],
-    interval:4000,
-    duration:3000
+    motto: 'Hello World'
   },
   onLoad(options) {
-
   },
   onReady() {
   },

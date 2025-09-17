@@ -1,7 +1,10 @@
 {
-  "pages": [
-    "pages/index/index"
-  ],
+    "pages": [
+        "pages/index/index",
+        "pages/cart/cart",
+        "pages/profile/profile",
+        "pages/order/order"
+    ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -10,5 +13,39 @@
     "capsuleTheme": "light"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "tabBar": {
+        "color":"#b7b7b7",
+        "selectedColor":"#AB956D",
+        "borderStyle":"white",
+        "backgroundColor":"#f5f5f5",
+        "list": [
+            {
+                "pagePath":"pages/index/index",
+                "iconPath":"assets/images/12.png",
+                "selectedIconPath":"assets/images//11.png",
+                "text":"Home"
+            },
+                        {
+                "pagePath":"pages/cart/cart",
+                "iconPath":"assets/images/cart2.png",
+                "selectedIconPath":"assets/images/cart1.png",
+                "text":"Cart"
+            },
+            {
+                "pagePath":"pages/order/order",
+                "iconPath":"assets/images/22.png",
+                "selectedIconPath":"assets/images//21.png",
+                "text":"Order"
+            },
+
+            {
+                "pagePath":"pages/profile/profile",
+                "iconPath":"assets/images/42.png",
+                "selectedIconPath":"assets/images/41.png",
+                "text":"Profile"
+            }
+        ]
+    }
+   
+    
 }

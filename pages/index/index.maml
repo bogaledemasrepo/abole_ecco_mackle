@@ -1,5 +1,33 @@
-<!--index.maml-->
-<view class="container">
-    <text>{{motto}}</text>
+<view class='main'>
+    <swiper indicator-dots='true' autoplay='true' interval='{{interval}}' duration='{{duration}}' circular='true'>
+        <block ma:for='{{imgUrls}}' ma:key='{{index}}'>
+            <swiper-item>
+                <image src='{{item}}' class='slide-image' width='100%'>
+                </image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view>
+        <view class='select-title'>
+            <text class="text1">Featured Products</text>
+        </view>
+        <view ma:for='{{cements}}' ma:key='index'>
+            <view class='bg-custom'>
+            </view>
+        </view>
+    </view>
+
+    <!-- Recommended Offerings -->
+    <view>
+        <view class='select-title'>
+            <text class="text1">Recommended Products</text>
+        </view>
+        <view class="container-popular">
+            <view ma:for='{{popular}}' ma:key='index' class="card-popular">
+
+            </view>
+        </view>
+    </view>
+
 </view>
 

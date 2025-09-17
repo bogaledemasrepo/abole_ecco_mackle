@@ -1,0 +1,7 @@
+.container-box{
+    border: 2rpx solid #808080;
+    width: 400rpx;
+    height: 300RPX;
+    background:#212429;
+
+}

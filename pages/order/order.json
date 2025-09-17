@@ -1,0 +1,12 @@
+{
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "capsuleTheme": "light",
+    "navigationBarTitleText": "",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark|light",
+    "enablePullDownRefresh": false,
+    "disableScroll": false,
+    "onReachBottomDistance": false
+}
+  
