@@ -1,0 +1,7 @@
+{
+  "description": "project config file",
+  "projectname": "abole_ecco_mackle",
+  "setting": {
+    "es5": false
+  }
+}
